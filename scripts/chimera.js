@@ -1,0 +1,30 @@
+export const chimera = () => {
+  return `
+        <div>
+        <h2>Heads</h2>
+        </div>
+        <div>
+        <h2>
+        Torsos
+        </h2>
+        </div>
+        <div>
+        <h2>Arms</h2>
+        </div>
+        <div>
+        <h2>
+        Legss
+        </h2>
+        </div>
+        <div>
+        <h2>
+        Tails
+        </h2>
+        </div>
+        <div>
+        <h2>
+        Powers
+        </h2>
+        </div>
+    `;
+};
