@@ -34,3 +34,29 @@ const database = {
     { id: 3, size: "Fire Breath" }
   ]
 };
+
+// Functions that get copies of the database
+
+export const getHeads = () => {
+  return database.heads.map(head => ({...head}))
+}
+
+export const getTorsos = () => {
+  return database.torsos.map(torso => ({...torso}))
+}
+
+export const getLegs = () => {
+  return database.legs.map(leg => ({...leg}))
+}
+
+export const getTails = () => {
+  return database.tails.map(tail => ({...tail}))
+}
+
+export const getArms = () => {
+  return database.arms.map(arm => ({...arm}))
+}
+
+export const getPowers = () => {
+  return database.powers.map(power => ({...power}))
+}
