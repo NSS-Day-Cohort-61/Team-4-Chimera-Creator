@@ -60,3 +60,7 @@ export const getArms = () => {
 export const getPowers = () => {
   return database.powers.map(power => ({...power}))
 }
+
+export const setArms = (id) => {
+  return database.orderBuilder.armId = id
+}
