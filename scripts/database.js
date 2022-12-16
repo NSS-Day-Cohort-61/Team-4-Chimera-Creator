@@ -29,9 +29,9 @@ const database = {
     { id: 4, name: "Praying Mantis", price: 0.09, hasFingers: false }
   ],
   powers: [
-    { id: 1, size: "Lightning Breath" },
-    { id: 2, size: "Ice Breath" },
-    { id: 3, size: "Fire Breath" }
+    { id: 1, name: "Lightning Breath" },
+    { id: 2, name: "Ice Breath" },
+    { id: 3, name: "Fire Breath" }
   ]
 };
 
